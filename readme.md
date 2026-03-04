@@ -99,7 +99,15 @@ npx cypress run
 
 ---
 
-## 📂 Estrutura do Projeto
+## � Demonstração do Teste em Execução
+
+Veja abaixo uma gravação da execução dos testes automatizados:
+
+https://github.com/weberfern/Quality-Assurance---Bootcamp-Atlantico-Avanti/assets/raw/main/cypress/videos/busca.cy.js.mp4
+
+---
+
+## �📂 Estrutura do Projeto
 
 ```
 Squad_06_BugBusters/
