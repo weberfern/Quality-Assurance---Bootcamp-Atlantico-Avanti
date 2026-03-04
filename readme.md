@@ -49,7 +49,7 @@ git --version
 ### 📥 2. Clonar o Repositório
 
 ```bash
-git clone https://github.com/Eliveltonmoura/Squad_06_BugBusters.git
+git clone https://github.com/weberfern/Quality-Assurance---Bootcamp-Atlantico-Avanti.git
 cd Squad_06_BugBusters
 ```
 
@@ -133,6 +133,15 @@ Squad_06_BugBusters/
 ## 👥 Equipe
 
 **Squad 06 – BugBusters**
+- Antonio Elivelton Moura da Silva
+- Fernanda Francisconi Schmidt
+- Luan de Souza Martins
+- Mariene Silva da Cruz Santos
+- Nycole Maria Costa Rodrigues
+- Rafaela Cristina de Souza Nascimento
+- Samayra Damasceno Sales
+- Weber Fernandes da Silva
+- Yuri Lima Rebouças de Oliveira
 
 ---
 
