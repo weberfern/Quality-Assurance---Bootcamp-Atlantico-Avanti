@@ -159,7 +159,7 @@ npx cypress run --spec "cypress/e2e/searchMovies/searchMovies.cy.js"
 **Casos de teste:**
 * Submissão de busca vazia (apenas pressionar Enter)
 
-**Validação:** Verifica exibição da mensagem de busca sem resultados
+**Validação:** Verifica exibição da mensagem "Não foram encontrados filmes que correspondam aos seus critérios de busca."
 
 ---
 
@@ -168,13 +168,13 @@ npx cypress run --spec "cypress/e2e/searchMovies/searchMovies.cy.js"
 Os comandos customizados estão definidos em `cypress/pages/searchMovies-page.js`:
 
 ### `cy.searchMovie(movieName)`
-Busca um filme existente e valida se aparece nos resultados
+Busca um filme existente e valida se aparece nos resultados.
 
 ### `cy.searchMovieInexistent(movieName)`
-Busca um filme inexistente e valida mensagem de erro
+Busca um filme inexistente e valida mensagem de erro.
 
 ### `cy.searchMovieEmpty()`
-Submete busca vazia e valida mensagem apropriada
+Submete busca vazia e valida mensagem de erro.
 
 ---
 
@@ -185,14 +185,6 @@ O arquivo `cypress.config.js` possui as seguintes configurações:
 * **Gravação de vídeo:** Habilitada
 * **Compressão de vídeo:** 32
 * **Modo E2E:** Configurado
-
----
-
-## 👥 Equipe
-
-**Squad 06 - BugBusters**
-
-Bootcamp Atlântico Avanti - Quality Assurance
 
 ---
 
